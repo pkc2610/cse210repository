@@ -22,15 +22,16 @@ class RESUMEbb
 
 {
     public string Name;
-    public List<_Jobs>;
+    public List<Job> JOBS = new List<Job>();
+        public void Display()
 
     {
         Console.WriteLine($"Name: {Name}");
-        Console.WriteLine($"{_Jobs}");
+        Console.WriteLine($"{JOBS}");
 
-        foreach (Job in _jobs)
-        {
-            job.Display();
+        foreach (Job in JOBS)
+            {
+                Job.Display();
+        }
     }
-}
 }
