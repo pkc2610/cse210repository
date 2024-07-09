@@ -2,15 +2,15 @@ using System;
 
 class JOB
 { 
-    public string Company;
-    public string  JobName;
-    public string StartYear;
-    public string EndYear;
+    public string _Company;
+    public string  _JobName;
+    public string _StartYear;
+    public string _EndYear;
 
     public void Display()
 
 {
-    Console.WriteLine($"{JobName} ({Company}) {StartYear}-{EndYear}")
+    Console.WriteLine($"{JobName} ({Company}) {StartYear}-{EndYear}");
 
 }
 }
